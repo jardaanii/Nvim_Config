@@ -3,12 +3,13 @@
 local telescope = require("telescope")
 local builtin = require("telescope.builtin")
 
+
 -- Configure Telescope
 telescope.setup({
     defaults = {
         -- Default configuration for telescope goes here
         -- config_key = value,
-    },
+	    },
     pickers = {
         -- Default configuration for builtin pickers goes here
         -- picker_name = {
